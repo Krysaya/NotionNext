@@ -35,9 +35,9 @@ const BLOG = {
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap'
   ],
   FONT_SANS: [
-    // 无衬线字体 例如'LXGW WenKai'
+    // 无衬线字体 例如'LXGW WenKai'        
+    '"LXGW WenKai"',
     'Bitter',
-    'LXGW WenKai',
     '"PingFang SC"',
     '-apple-system',
     'BlinkMacSystemFont',
@@ -57,8 +57,8 @@ const BLOG = {
   ],
   FONT_SERIF: [
     // 衬线字体 例如'LXGW WenKai'
+    '"LXGW WenKai"',
     'Bitter',
-    'LXGW WenKai',
     '"Noto Serif SC"',
     'SimSun',
     '"Times New Roman"',
