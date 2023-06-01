@@ -160,18 +160,18 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      name: '雨幕-许嵩',
+      artist: '雨幕《天龙八部游戏主题曲》',
+      url: 'https://tyst.migu.cn/public/product9th/product44/2021/08/0301/2019%E5%B9%B410%E6%9C%8812%E6%97%A514%E7%82%B941%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E6%B5%B7%E8%9D%B6%E6%97%B6%E4%BB%A3%E6%95%B0%E7%A0%811%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_128_16_Stero/6008460GHZ5015103.mp3',
       cover:
-        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://i.biliimg.com/bfs/im/ccf919e0613aad0242bd4c1db682216ca7e8acc0.jpg@400w_400h_1c.webp'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
+      name: '断桥残雪',
+      artist: '自定义',
       url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
       cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://i.biliimg.com/bfs/im/fad1391b3982048aff749f7b6f62d9456b11d2da.jpg@400w_400h_1c.webp'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
